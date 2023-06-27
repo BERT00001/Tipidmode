@@ -1,0 +1,144 @@
+body
+{
+
+background-image: url('https://img.theculturetrip.com/wp-content/uploads/2017/08/geradlinesy_filipinoculture_web.png');
+background-size: cover;
+background-repeat: no-repeat;
+
+
+
+}
+.head
+{
+
+  background-color: wheat;
+  opacity: 1.0;
+  border-radius: 12px;
+  top: 30%;
+  left: 15%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+
+}
+
+.head img
+{
+
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    left: 90%;
+    top: -40px;
+    position: absolute;
+
+
+}
+.head h2
+{
+      font-size: 35px;
+      padding: 25px 25px 0px;
+}
+
+.head p
+{
+      text-align: right;
+      padding-right: 25px;
+}
+
+.form
+{
+
+    background-color: #fff;
+    opacity: 0.85;
+    padding: 15px 50px;
+    left: 70%;
+    top: 50%;
+    transform: translate(-25%, -50%);
+    border-radius: 12px;
+    position: absolute;
+
+}
+
+.form label
+{
+
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.form .user-input
+{
+    padding-bottom: 5%;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+  div.head {
+    display: none;
+  }
+  body
+  {
+    background-image: none;
+    background-color: whitesmoke;
+
+  }
+
+.form
+{
+    
+    background-color: gray;
+    padding: 5px 80px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    position: absolute;
+
+}
+
+.head img
+{
+
+    display: none;
+
+}
+
+.form label
+{
+
+    font-size: 12px;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+}
+
+
+/* #user-input
+{
+
+    padding-bottom: 10px;
+
+}
+#user-input input
+{
+    height: 25px;
+    width: 95%;
+    font-size: 18px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    outline: none;
+
+}
+
+
+#user-input label
+{
+
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+} */
